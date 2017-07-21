@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="car" class="com.csu._3ioc.Car"/>
+    <bean name="car2" class="com.csu._3ioc.Car2" init-method="myInit" destroy-method="myDestroy"/>
+    
+</beans>

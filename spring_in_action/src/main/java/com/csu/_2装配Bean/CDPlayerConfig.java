@@ -1,7 +1,5 @@
 package com.csu._2装配Bean;
 
-import com.sun.xml.internal.bind.v2.TODO;
-
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
